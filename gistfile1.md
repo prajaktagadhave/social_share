@@ -67,7 +67,7 @@ Google Plus
 	"id":"p",
 	"params":{
 		"nolog":true,
-		"id":"%%URL%%",
+		"id":"http://stylehatch.co/",
 		"source":"widget",
 		"userId":"@viewer",
 		"groupId":"@self"
@@ -84,7 +84,7 @@ Google Plus
 [{
 	"result": { 
 		"kind": "pos#plusones", 
-		"id": "http://www.google.com/", 
+		"id": "http://stylehatch.co/", 
 		"isSetByViewer": false, 
 		"metadata": {
 			"type": "URL", 
