@@ -27,12 +27,16 @@ LinkedIn
 `http://www.linkedin.com/countserv/count/share?url=http://stylehatch.co&format=json`
 
 Returns:
-`{"count":17,"fCnt":"17","fCntPlusOne":"18","url":"http:\/\/stylehatch.co"}`
+```json
+{"count":17,"fCnt":"17","fCntPlusOne":"18","url":"http:\/\/stylehatch.co"}
+```
 
 Google Plus
 -----------
 POST URL
+
 `https://clients6.google.com/rpc?key=YOUR_API_KEY`
+
 POST BODY
 ```json
 [{
@@ -48,4 +52,5 @@ POST BODY
 	"jsonrpc":"2.0",
 	"key":"p",
 	"apiVersion":"v1"
-}]```
+}]
+```
