@@ -9,9 +9,7 @@ Twitter
 `http://cdn.api.twitter.com/1/urls/count.json?url=http://stylehatch.co`
 
 Returns:
-<blockquote>
-{
+`{
    "id": "http://stylehatch.co",
    "shares": 61
-}
-</blockquote>
+}`
