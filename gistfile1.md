@@ -6,10 +6,11 @@ I have always struggled with getting all the various share buttons from Facebook
 Twitter
 -------
 
-*GET URL:*
+**GET URL:**
+
 `http://cdn.api.twitter.com/1/urls/count.json?url=http://stylehatch.co`
 
-_Returns:_
+**Returns:**
 ```json
 {
 	"count":528,
@@ -20,9 +21,11 @@ _Returns:_
 Facebook
 --------
 
+**GET URL:**
+
 `http://graph.facebook.com/?id=http://stylehatch.co`
 
-Returns:
+**Returns:**
 
 ```json
 {
@@ -33,9 +36,12 @@ Returns:
 
 LinkedIn
 --------
+
+**GET URL:**
+
 `http://www.linkedin.com/countserv/count/share?url=http://stylehatch.co&format=json`
 
-Returns:
+**Returns:**
 
 ```json
 {
@@ -48,11 +54,12 @@ Returns:
 
 Google Plus
 -----------
-POST URL:
+
+**POST URL:**
 
 `https://clients6.google.com/rpc?key=YOUR_API_KEY`
 
-POST body:
+**POST body:**
 
 ```json
 [{
@@ -71,7 +78,7 @@ POST body:
 }]
 ```
 
-_Returns_
+**Returns**
 ```json
 
 [{
