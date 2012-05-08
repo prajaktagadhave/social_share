@@ -9,7 +9,12 @@ Twitter
 `http://cdn.api.twitter.com/1/urls/count.json?url=http://stylehatch.co`
 
 Returns:
-`{"count":528,"url":"http://stylehatch.co/"}`
+```json
+{
+	"count":528,
+	"url":"http://stylehatch.co/"
+}
+```
 
 Facebook
 --------
@@ -17,27 +22,37 @@ Facebook
 `http://graph.facebook.com/?id=http://stylehatch.co`
 
 Returns:
-`{
+
+```json
+{
    "id": "http://stylehatch.co",
    "shares": 61
-}`
+}
+```
 
 LinkedIn
 --------
 `http://www.linkedin.com/countserv/count/share?url=http://stylehatch.co&format=json`
 
 Returns:
+
 ```json
-{"count":17,"fCnt":"17","fCntPlusOne":"18","url":"http:\/\/stylehatch.co"}
+{
+	"count":17,
+	"fCnt":"17",
+	"fCntPlusOne":"18",
+	"url":"http:\/\/stylehatch.co"
+}
 ```
 
 Google Plus
 -----------
-POST URL
+POST URL:
 
 `https://clients6.google.com/rpc?key=YOUR_API_KEY`
 
-POST BODY
+POST body:
+
 ```json
 [{
 	"method":"pos.plusones.get",
