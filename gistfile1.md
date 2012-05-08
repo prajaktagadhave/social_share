@@ -96,3 +96,31 @@ Google Plus
 	"id": "p"
 }]
 ```
+
+StumbledUpon
+------------
+
+**GET URL:**
+
+`http://www.stumbleupon.com/services/1.01/badge.getinfo?url=http://stylehatch.co`
+
+**Result:**
+```json
+
+{
+	"result":{
+		"url":"http:\/\/stylehatch.co\/",
+		"in_index":true,
+		"publicid":"1iOLcK",
+		"views":39,
+		"title":"Style Hatch - Hand Crafted Digital Goods",
+		"thumbnail":"http:\/\/cdn.stumble-upon.com\/mthumb\/941\/72725941.jpg",
+		"thumbnail_b":"http:\/\/cdn.stumble-upon.com\/bthumb\/941\/72725941.jpg",
+		"submit_link":"http:\/\/www.stumbleupon.com\/submit\/?url=http:\/\/stylehatch.co\/",
+		"badge_link":"http:\/\/www.stumbleupon.com\/badge\/?url=http:\/\/stylehatch.co\/",
+		"info_link":"http:\/\/www.stumbleupon.com\/url\/stylehatch.co\/"
+	},
+	"timestamp":1336520555,
+	"success":true
+}
+```
