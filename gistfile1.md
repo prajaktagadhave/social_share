@@ -21,3 +21,11 @@ Returns:
    "id": "http://stylehatch.co",
    "shares": 61
 }`
+
+LinkedIn
+--------
+`http://www.linkedin.com/countserv/count/share?url=http://stylehatch.co&format=json`
+
+Returns:
+`{"count":17,"fCnt":"17","fCntPlusOne":"18","url":"http:\/\/stylehatch.co"}`
+
