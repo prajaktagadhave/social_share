@@ -29,3 +29,23 @@ LinkedIn
 Returns:
 `{"count":17,"fCnt":"17","fCntPlusOne":"18","url":"http:\/\/stylehatch.co"}`
 
+Google Plus
+-----------
+POST URL
+`https://clients6.google.com/rpc?key=YOUR_API_KEY`
+POST BODY
+```json
+[{
+	"method":"pos.plusones.get",
+	"id":"p",
+	"params":{
+		"nolog":true,
+		"id":"%%URL%%",
+		"source":"widget",
+		"userId":"@viewer",
+		"groupId":"@self"
+		},
+	"jsonrpc":"2.0",
+	"key":"p",
+	"apiVersion":"v1"
+}]```
