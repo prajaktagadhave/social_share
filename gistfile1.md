@@ -6,9 +6,10 @@ I have always struggled with getting all the various share buttons from Facebook
 Twitter
 -------
 
+*GET URL:*
 `http://cdn.api.twitter.com/1/urls/count.json?url=http://stylehatch.co`
 
-Returns:
+_Returns:_
 ```json
 {
 	"count":528,
@@ -67,5 +68,24 @@ POST body:
 	"jsonrpc":"2.0",
 	"key":"p",
 	"apiVersion":"v1"
+}]
+```
+
+_Returns_
+```json
+
+[{
+	"result": { 
+		"kind": "pos#plusones", 
+		"id": "http://www.google.com/", 
+		"isSetByViewer": false, 
+		"metadata": {
+			"type": "URL", 
+			"globalCounts": {
+				"count": 3097.0
+			}
+		}
+	} ,
+	"id": "p"
 }]
 ```
