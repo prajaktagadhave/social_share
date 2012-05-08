@@ -9,6 +9,14 @@ Twitter
 `http://cdn.api.twitter.com/1/urls/count.json?url=http://stylehatch.co`
 
 Returns:
+`{"count":528,"url":"http://stylehatch.co/"}`
+
+Facebook
+--------
+
+`http://graph.facebook.com/?id=http://stylehatch.co`
+
+Returns:
 `{
    "id": "http://stylehatch.co",
    "shares": 61
