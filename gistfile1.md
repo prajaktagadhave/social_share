@@ -47,7 +47,7 @@ Pinterest
 
 **Result:**
 
-```json
+```
 ({"count": 0, "url": "http://stylehatch.co"})
 ```
 
