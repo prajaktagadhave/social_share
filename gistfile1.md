@@ -38,6 +38,19 @@ Facebook
 }
 ```
 
+Pinterest
+---------
+
+**GET URL:**
+
+`http://api.pinterest.com/v1/urls/count.json?callback=&url=http://stylehatch.co`
+
+**Result:**
+
+```json
+({"count": 0, "url": "http://stylehatch.co"})
+```
+
 LinkedIn
 --------
 
