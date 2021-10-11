@@ -1,0 +1,10 @@
+
+GET URL:
+
+http://cdn.api.twitter.com/1/urls/count.json?url=http://stylehatch.co
+
+Returns:
+
+{
+	"count":528,
+	"url":"http://stylehatch.co/"
